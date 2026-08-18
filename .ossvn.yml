@@ -1,0 +1,10 @@
+version: 1
+risk_level: R1
+review:
+  default_level: L1
+testing:
+  required_checks: []
+  manual: false
+ai:
+  contributions: welcome
+  disclosure: optional
