@@ -2,9 +2,12 @@
 
 Cảm ơn bạn muốn contribution.
 
+Bạn không cần join group hay xin membership trước khi bắt đầu.
+
 ## Nguyên tắc chung
 
 - PR nhỏ, rõ scope.
+- Task nằm trong repo nơi thay đổi xảy ra.
 - AI và vibecoding được welcome.
 - Người gửi PR chịu trách nhiệm về output.
 - Đọc diff trước khi submit.
@@ -21,10 +24,15 @@ AI không được tính là nguồn kỹ thuật duy nhất hoặc reviewer cu�
 
 Xem `docs/AI_CONTRIBUTION_POLICY.md`.
 
-## Review
+## Review và task
 
 Mỗi repo khai báo risk trong `.ossvn.yml`.
 
-Xem `docs/RISK_LEVELS.md`, `docs/REVIEW_POLICY.md` và `docs/TESTING_STANDARD.md`.
+Xem:
+
+- `docs/RISK_LEVELS.md`
+- `docs/REVIEW_POLICY.md`
+- `docs/TESTING_STANDARD.md`
+- `docs/TASK_STANDARD.md`
 
 Repo riêng có thể có `CONTRIBUTING.md` bổ sung cho workflow của repo đó.
