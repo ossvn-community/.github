@@ -10,7 +10,7 @@ AI-assisted và vibecoding contributions được welcome.
 
 **IT in Plain Vietnamese** - giải thích từng concept IT bằng tiếng Việt đơn giản, trong vài phút đọc nếu có thể.
 
-Bắt đầu tại repo `community` hoặc đi thẳng tới `it-in-plain-vietnamese`.
+Bắt đầu tại repo [`community`](https://github.com/ossvn-community/community) hoặc đi thẳng tới [`it-in-plain-vietnamese`](https://github.com/ossvn-community/it-in-plain-vietnamese).
 
 Xem chính sách và nguyên tắc hoạt động tại [.github/README.md](../README.md)
 
