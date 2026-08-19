@@ -1,8 +1,0 @@
-version: 1
-risk_level: R1
-testing:
-  required_checks: []
-  manual: true
-ai:
-  contributions: welcome
-  disclosure: optional

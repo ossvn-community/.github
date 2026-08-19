@@ -38,7 +38,7 @@ Fact được quyết định bằng bằng chứng và nguồn tốt hơn, khô
 
 ## Repo risk - dành cho maintainer
 
-`risk_level` trong `.ossvn.yml` dùng để chọn ruleset mặc định:
+`risk_level` là GitHub Custom Property của repository, dùng để chọn ruleset mặc định:
 
 | Level | Repo |
 | --- | --- |
