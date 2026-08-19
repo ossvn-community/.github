@@ -25,6 +25,12 @@ Command bắt buộc và manual step của từng repo nằm trong `CONTRIBUTING
 
 Không yêu cầu test report dài. PR chỉ cần ghi ngắn dưới `Automated:` và `Manual:`.
 
+## Reviewer assignment
+
+Repo có thể dùng `.github/CODEOWNERS` để GitHub tự request reviewer phù hợp khi Pull Request sẵn sàng để review.
+
+Risk ruleset quyết định Code Owner approval có bắt buộc hay không. `CODEOWNERS` chỉ xác định ai phù hợp để review phần code hoặc nội dung tương ứng.
+
 ## Technical content
 
 Reviewer kiểm tra:
@@ -38,7 +44,7 @@ Fact được quyết định bằng bằng chứng và nguồn tốt hơn, khô
 
 ## Repo risk - dành cho maintainer
 
-`risk_level` trong `.ossvn.yml` dùng để chọn ruleset mặc định:
+`risk_level` là GitHub Custom Property của repository, dùng để chọn ruleset mặc định:
 
 | Level | Repo |
 | --- | --- |

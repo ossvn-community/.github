@@ -9,6 +9,22 @@ Bạn không cần join group hay xin membership trước khi bắt đầu.
 - Không commit secret hoặc dữ liệu nhạy cảm.
 - Nói rõ phần bạn chưa chắc.
 
+## Branch và PR title
+
+Branch dùng format:
+
+```text
+<type>/<short-kebab-case>
+```
+
+Các `type` chung: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `ci`.
+
+Ví dụ: `docs/improve-contribution-guide` hoặc `fix/broken-link`.
+
+PR title nên dùng format `<type>: mô tả ngắn`, ví dụ `docs: improve contribution guide`.
+
+Commit message nên ngắn và rõ nghĩa. Conventional Commit được khuyến khích nhưng không bắt buộc vì OSSVN mặc định ưu tiên squash merge.
+
 ## Trước khi mở PR
 
 ### 1. Kiểm tra diff
