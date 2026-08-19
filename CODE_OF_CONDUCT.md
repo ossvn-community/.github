@@ -1,9 +1,5 @@
 # Code of Conduct
 
-OSSVN muốn tạo một cộng đồng an toàn để học, build và contribution.
-
-Chức danh hoặc kinh nghiệm không cho phép bất kỳ ai đứng ngoài quy tắc này.
-
 ## Chúng tôi mong đợi
 
 - Tôn trọng người khác.
@@ -26,8 +22,6 @@ Chức danh hoặc kinh nghiệm không cho phép bất kỳ ai đứng ngoài q
 
 Nói rõ vấn đề, bằng chứng và thay đổi cần thiết.
 
-Không biến review thành cuộc thi chứng minh ai giỏi hơn.
-
 ## Thực thi
 
 Maintainer có thể:
@@ -37,7 +31,7 @@ Maintainer có thể:
 3. Hạn chế tương tác tạm thời.
 4. Cấm vĩnh viễn khi vi phạm nghiêm trọng hoặc lặp lại.
 
-Quyết định phải dựa trên hành vi, không dựa trên seniority.
+Quyết định dựa trên hành vi, không dựa trên seniority.
 
 ## Báo cáo
 
@@ -47,6 +41,4 @@ Không yêu cầu người báo cáo công khai sự việc trong issue.
 
 ## Tham khảo
 
-Chính sách này giữ ngắn cho MVP và tham khảo Contributor Covenant 2.1.
-
-Trước public launch, maintainers phải review lại quy trình thực thi và kênh báo cáo.
+- [Contributor Covenant 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)

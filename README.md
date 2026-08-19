@@ -2,30 +2,19 @@
 
 Repository mặc định cho GitHub Organization `ossvn-community`.
 
-Repo này là source of truth cho policy và community health files dùng chung.
+## Tài liệu
 
-## Chứa gì?
+- [Organization profile](profile/README.md) - giới thiệu organization.
+- [Contributing](CONTRIBUTING.md) - quy tắc contribution chung và AI policy.
+- [Review policy](REVIEW_POLICY.md) - cách review và test theo mức rủi ro.
+- [Code of Conduct](CODE_OF_CONDUCT.md) - quy tắc hành vi.
+- [Security](SECURITY.md) - cách báo cáo vấn đề bảo mật.
+- [Support](SUPPORT.md) - nơi hỏi và nhận hỗ trợ.
+- [Pull Request template](.github/pull_request_template.md) - template PR mặc định.
 
-- `profile/README.md` - Organization profile.
-- `CONTRIBUTING.md` - quy tắc contribution chung.
-- `CODE_OF_CONDUCT.md` - quy tắc hành vi.
-- `SECURITY.md` - cách báo cáo vấn đề bảo mật.
-- `SUPPORT.md` - nơi hỏi và nhận hỗ trợ.
-- `docs/AI_CONTRIBUTION_POLICY.md` - quy tắc dùng AI/vibecoding.
-- `docs/GOVERNANCE.md` - governance chung.
-- `docs/LICENSING.md` - license model chung.
-- `docs/NAMING.md` - tên và handle của Organization.
-- `docs/REVIEW_POLICY.md` - quy tắc review theo risk.
-- `docs/RISK_LEVELS.md` - R0-R3 và review levels.
-- `docs/TASK_STANDARD.md` - quy tắc tạo task nhỏ.
-- `docs/TESTING_STANDARD.md` - evidence/test theo risk.
-- `.github/pull_request_template.md` - PR template mặc định.
-
-Repo riêng chỉ override khi thật sự có rule khác.
+Repo riêng chỉ override khi cần rule khác.
 
 ## License
 
-- Policy, docs và prose: CC BY 4.0.
-- Code, automation và configuration: MIT.
-
-Xem `LICENSE-CODE` và `LICENSE-CONTENT`.
+- [LICENSE-CONTENT](LICENSE-CONTENT) - policy và prose dùng CC BY 4.0.
+- [LICENSE-CODE](LICENSE-CODE) - code, automation và configuration dùng MIT.

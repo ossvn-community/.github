@@ -1,38 +1,62 @@
 # Contributing to OSSVN
 
-Cảm ơn bạn muốn contribution.
-
 Bạn không cần join group hay xin membership trước khi bắt đầu.
 
-## Nguyên tắc chung
+## Quy tắc chung
 
 - PR nhỏ, rõ scope.
 - Task nằm trong repo nơi thay đổi xảy ra.
-- AI và vibecoding được welcome.
-- Người gửi PR chịu trách nhiệm về output.
-- Đọc diff trước khi submit.
-- Chạy check được yêu cầu.
-- Nói rõ phần bạn chưa chắc.
 - Không commit secret hoặc dữ liệu nhạy cảm.
-- Review theo risk, không theo seniority hay công cụ viết code.
+- Nói rõ phần bạn chưa chắc.
+
+## Trước khi mở PR
+
+### 1. Kiểm tra diff
+
+Từ root của repository:
+
+```bash
+git status --short
+git diff --check
+git diff
+```
+
+Đọc toàn bộ diff và bỏ thay đổi ngoài scope.
+
+### 2. Chạy automated checks
+
+**Automated check: không có.**
+
+### 3. Kiểm tra thủ công
+
+- Preview các file Markdown đã sửa và kiểm tra heading, list, code block render đúng.
+- Mở các internal Markdown link đã thêm hoặc sửa và xác nhận target tồn tại.
+- Nếu sửa `SECURITY.md` hoặc `CODE_OF_CONDUCT.md`, kiểm tra email/contact hiển thị đúng và nhất quán.
+- Nếu sửa `CONTRIBUTING.md`, `REVIEW_POLICY.md` hoặc `.github/pull_request_template.md`, preview PR template và kiểm tra contribution flow vẫn khớp với tài liệu.
+
+### 4. Kết quả mong đợi
+
+- `git diff --check` không in lỗi và exit code bằng `0`.
+- Markdown render đúng, không có internal link hỏng.
+- Contact và contribution flow không mâu thuẫn giữa các tài liệu liên quan.
 
 ## AI
 
-Bạn có thể dùng ChatGPT, Codex, Claude, Copilot, Cursor hoặc công cụ tương tự.
+AI-assisted và vibecoding contributions được welcome.
 
-AI không được tính là nguồn kỹ thuật duy nhất hoặc reviewer cuối cùng.
+Nếu submit PR, bạn chịu trách nhiệm về output:
 
-Xem `docs/AI_CONTRIBUTION_POLICY.md`.
+- Đọc diff.
+- Thực hiện đúng phần `Trước khi mở PR` của repository đang sửa.
+- Không bịa test đã chạy.
+- Không đưa secret hoặc dữ liệu không được phép vào AI.
+- Không dùng AI làm nguồn kỹ thuật.
+- Nói rõ phần bạn chưa chắc.
 
-## Review và task
+Khai báo công cụ AI là optional.
 
-Mỗi repo khai báo risk trong `.ossvn.yml`.
+## Review
 
-Xem:
+Reviewer xem [REVIEW_POLICY.md](REVIEW_POLICY.md).
 
-- `docs/RISK_LEVELS.md`
-- `docs/REVIEW_POLICY.md`
-- `docs/TESTING_STANDARD.md`
-- `docs/TASK_STANDARD.md`
-
-Repo riêng có thể có `CONTRIBUTING.md` bổ sung cho workflow của repo đó.
+Repo riêng có thể có `CONTRIBUTING.md` bổ sung command và manual check cho workflow của repo đó.
