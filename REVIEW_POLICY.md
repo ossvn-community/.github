@@ -25,6 +25,12 @@ Command bắt buộc và manual step của từng repo nằm trong `CONTRIBUTING
 
 Không yêu cầu test report dài. PR chỉ cần ghi ngắn dưới `Automated:` và `Manual:`.
 
+## Reviewer assignment
+
+Repo có thể dùng `.github/CODEOWNERS` để GitHub tự request reviewer phù hợp khi Pull Request sẵn sàng để review.
+
+Risk ruleset quyết định Code Owner approval có bắt buộc hay không. `CODEOWNERS` chỉ xác định ai phù hợp để review phần code hoặc nội dung tương ứng.
+
 ## Technical content
 
 Reviewer kiểm tra:
