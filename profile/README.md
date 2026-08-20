@@ -12,6 +12,6 @@ AI-assisted và vibecoding contributions được welcome.
 
 Bắt đầu tại repo [`community`](https://github.com/ossvn-community/community) hoặc đi thẳng tới [`it-in-plain-vietnamese`](https://github.com/ossvn-community/it-in-plain-vietnamese).
 
-Xem chính sách và nguyên tắc hoạt động tại [.github/README.md](../README.md)
+Xem chính sách và nguyên tắc hoạt động tại [.github/README.md](https://github.com/ossvn-community/.github/blob/main/README.md)
 
 > Low barrier to contribute. High standard to merge.
